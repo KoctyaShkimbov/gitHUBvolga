@@ -10,13 +10,18 @@
 
 <body>
     <h1>РЕГИСТРАЦИЯ</h1>
-    <form>
-        <label>ВВедите email</label>
-        <input type="email" name="email" placeholder="введите email" maxlength="150">
-
-
-
-    </form>
+    <form action="" method="">
+        <label>Введите email</label>
+        <input type="email" name="email" placeholder="введите email" maxlength="150" required><br><br>
+        <label>Введите пароль</label>
+        <input type="password" name="pass" placeholder="введите пароль" maxlength="150" required><br><br>
+        <label>Подтвердите пароль</label>
+        <input type="password" name="repeat-pass" placeholder="повторите пароль" maxlength="150" required  ><br><br>
+        <label>Подтвердить регистрацию</label>
+        <input type="checkbox" required><br><br>
+        <label>Отпрвьте первую страницу паспорта для регистрации</label>
+        <input type="file" required>
+     </form>
 </body>
 
 </html>
